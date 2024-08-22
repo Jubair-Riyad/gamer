@@ -313,19 +313,65 @@ nav div{
     border-radius: 50px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* footer section start */
+.footer{
+    background-color: #0B0223;
+    height: 636px;
+}
+.footer-container{
+   padding-top: 120px;
+}
+.footer h3{
+    color: #ffffff;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer li, a{
+    list-style: none;
+    text-decoration: none;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 818px;
+    margin: 0px auto;
+}
+.info a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 457.13px;
+    margin: 50px auto;
+}
+.regulatory{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 708px;
+    margin: 0px auto;
+}
+.regulatory a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #9f99a5;
+}
+.footer p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #9f99a5;
+    text-align: center;
+    margin-top: 30px;
+}
+/* footer section end */
 
 
 
@@ -457,5 +503,11 @@ nav div{
     width: 100%;
 }
 /* Careers Section End */
+.games-container{
+    flex-direction: column;
+}
 
+/* footer section start */
+
+/* footer section end */
 }
