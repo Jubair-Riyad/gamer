@@ -217,14 +217,79 @@ nav div{
 }
 /* Play Instantly Section End */
 
+/* online Section Start */
+.online-container{
+    display: flex;
+    max-width: 1440px;
+    margin: 250px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.online-content h3{
+    width: 426px;
+}
+.online-content p{
+    width: 483px;
+    font-size: 18px;
+}
+.online-img{
+    display: flex;
+}
+.move{
+    position: relative;
+    top: 410px;
+    right: 180px;
+    height: 100%;
+}
+/* online Section End */
 
-
-
-
-
-
-
-
+/* Careers Section Start */
+.careers{
+    background-color: #FF42A5;
+}
+.careers-container{
+    display: flex;
+    max-width: 1440px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto;
+}
+.careers-content h3{
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.careers-content p{
+    font-size: 18px;
+    color: #ffffff;
+    width: 680px;
+}
+.careers-content li{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    list-style: none;
+    line-height: 40px;
+}
+.experience{
+    display: flex;
+}
+.location{
+    text-align: end;
+}
+.btn-third{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    height: 65px;
+    width: 275px;
+    color: #FF42A5;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 48px;
+    cursor: pointer;
+}
+/* Careers Section End */
 
 
 
@@ -337,5 +402,40 @@ nav div{
     margin-left: auto;
 }
 /* Play Instantly Section End */
+
+/* online Section Start */
+.online-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.online-img img{
+    width: 80%;
+    height: 80%;
+}
+.move{
+    position: relative;
+    top: 160px;
+    right: 80px;
+}
+/* online Section End */
+
+/* Careers Section Start */
+.careers-container{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.careers-content p{
+    width: auto;
+}
+.experience{
+    size: calc(20px - 20%);
+}
+.careers-img img{
+    width: 100%;
+}
+/* Careers Section End */
 
 }
